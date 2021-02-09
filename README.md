@@ -11,7 +11,7 @@ COM_ABC_TITLE_2="Title"
 
 ### This PHP script does following:
 - identifies unused constants
-- comments out unused lang constants 
+- comments out unused lang constants in a newly created copy of lang. file
 - identifies duplicate language constants eg: `COM_ABC_TITLE`
 - identifies duplicate language values eg: `Title`
 
